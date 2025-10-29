@@ -45,6 +45,11 @@ Their are some DBCC commands like
 | `DBCC FREEPROCCACHE`            | Clears cached query execution plans                                        |
 | `DBCC DROPCLEANBUFFERS`         | Clears data cache (used to test query performance)                         |
 
+DBCC CHECKIDENT (table_name, RESEED, 98)
+it resets the identity value to 98(n-1)
+so the next value will be 97
+if their is a default value it the value will be n-1 if not it will be 98
+
 
 
 
