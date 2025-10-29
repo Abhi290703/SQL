@@ -25,8 +25,10 @@ it also same has above but it checks only in the current scope
     99      xyz      del       F        
     98      pqr      mum       M
  by selecting "select @@identity as currentvalue "
- 
 
+each page consists of 8kb = 8192 bytes
+the header takes 96 bytes
+remaining bytes are used to store data
 
 
 
