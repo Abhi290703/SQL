@@ -30,6 +30,22 @@ each page consists of 8kb = 8192 bytes
 the header takes 96 bytes
 remaining bytes are used to store data
 
+Their are some DBCC commands like
+| Command                         | Purpose                                                                    |
+| ------------------------------- | -------------------------------------------------------------------------- |
+| `DBCC CHECKDB`                  | Checks the integrity of the entire database (detects corruption or errors) |
+| `DBCC CHECKTABLE (table_name)`  | Checks integrity of a specific table                                       |
+| `DBCC CHECKALLOC`               | Verifies that all pages in the database are correctly allocated            |
+| `DBCC CHECKCATALOG`             | Checks for consistency between system tables                               |
+| `DBCC DBREINDEX`                | Rebuilds indexes for a table (improves performance)                        |
+| `DBCC SHRINKDATABASE (db_name)` | Reduces size of database files                                             |
+| `DBCC SHRINKFILE (file_name)`   | Reduces size of a specific data/log file                                   |
+| `DBCC OPENTRAN (db_name)`       | Shows information about open transactions                                  |
+| `DBCC SQLPERF (LOGSPACE)`       | Shows transaction log usage (how full it is)                               |
+| `DBCC FREEPROCCACHE`            | Clears cached query execution plans                                        |
+| `DBCC DROPCLEANBUFFERS`         | Clears data cache (used to test query performance)                         |
+
+
 
 
 
