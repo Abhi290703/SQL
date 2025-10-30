@@ -39,4 +39,5 @@ Alter column id datatype()
 To drop entier table : 
 drop table table_name
 
-To delete entier data from table 
+To delete entier data from table :
+truncate table_name
