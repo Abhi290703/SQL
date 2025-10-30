@@ -12,8 +12,7 @@ select * from student
 insert into student
 values
 ('Abhi','A','Hyderabad','M','no'),
-('Vinay','B','Vijayawada','M','yes')
-insert into student values
+('Vinay','B','Vijayawada','M','yes'),
 ('Avinash','A','Hyderabad','M','no'),
 ('Vijay','B','Vijayawada','M','yes'),
 ('Aravind','A','Hyderabad','M','no'),
@@ -34,4 +33,15 @@ Add age int
 --drop column
 Alter table student
 drop column age
+
+--truncate table -> it removes all the data from the table
+truncate table student
+
+-- check method 
+Alter table student 
+add constraint ck_student_transport check(std_transport in ('yes' ,'no'))
+
+
+
+
 
