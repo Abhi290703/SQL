@@ -44,5 +44,18 @@ truncate table_name
 
 To add column :
 Alter table table_name
-ADD column datatype()
+ADD Column_name datatype()
 
+If we want to drop column : 
+Alter table table_name
+DROP column Column_name 
+
+What is mean by constraint ? 
+constraint is a set of rules that you set on a table column
+Types of constraints : 
+Not Null
+Unique
+Primary key
+Foregin key
+CHECk
+Default
