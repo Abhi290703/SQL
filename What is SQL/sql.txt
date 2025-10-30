@@ -1,0 +1,42 @@
+What is SQL ?
+SQL stands for Structured Query Language 
+SQL mainly used for to store , manage and retrive data form the database like how 
+many id are their etc but the most commonly used to retrive data
+like enployes
+
+-> to communicate with database you can create , delete , modify ,
+update data easily
+
+-> The basic SQL operations are :
+    1. create : to create database or tables
+    2. Read : to retrive the data
+    3. update : updates the tables and values in it
+    4. delete : it deletes the data and table also
+
+-> Their are some SQl commands : 
+DDL (data definition Language) : create , Alter , drop , Truncate , Rename
+DQL (Data Query Language):  Select , from , Where , Orderby , groupby , having
+DCL (Data control Language): Grant , Revoke
+DML (Data Manipulation Language): insert , delete , update
+TCL (Transfer Control Language): Commit , Rollback , Savepoint
+SQL (Structured Query Language):
+
+Creation of database :
+create table table_name
+(details)
+
+insertion of values : 
+insert into table_name values()
+
+To update :
+Alter table table_name
+Alter table_name old_name and new_name
+
+To add column :
+Alter table_name
+Alter column id datatype()
+
+To drop entier table : 
+drop table table_name
+
+To delete entier data from table 
